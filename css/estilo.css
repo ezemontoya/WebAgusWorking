@@ -1,0 +1,73 @@
+body{
+    background-color: #110f0fea;
+}
+
+footer{
+    background-color: goldenrod;
+    padding: 5px 40px;
+    text-align: center;
+
+}
+
+.redesSociales{
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 0px;
+}
+
+.redesSociales li{
+    display: inline-block;
+} 
+
+
+.font-italic{
+    color: blanchedalmond;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+nav li{
+    display: block;
+    text-align: center;
+    
+}
+
+.header2{
+    width: 100%;
+    min-height: 50vh;
+    background-image: url(../imagenes/wooden-texture.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header.before{
+    content: '';
+width: 100%;
+min-height: 100vh;
+position: absolute;
+top: 0;
+left: 0;
+background-image: linear-gradient(rgba(255,255,255, .1), rgba(34,40,49, 1));
+}
+
+.text-header {
+    
+    min-height: 50vh;
+    
+    color: rgb(252, 252, 252);
+    font-family: 'Montserrat';  
+
+}
+
+.text-header h2{
+    font-family: 'Anton';
+  
+    
+}
+
+.text-header p{
+    
+    font-size: 1.5em;
+}

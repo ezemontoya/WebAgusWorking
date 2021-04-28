@@ -1,0 +1,57 @@
+body {
+    background-image:url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fsp.depositphotos.com%2Fstock-photos%2Ffondos-de-madera.html&psig=AOvVaw3w62n6PZaErPsrNpinrxTH&ust=1619649039560000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKie8v-8n_ACFQAAAAAdAAAAABAG);
+}
+
+form {
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 8;
+}
+
+h2 {
+    color: rgb(255, 251, 251);
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 250px;
+    max-width: 100%;
+
+}
+
+#boton {
+    background:gray;
+    color: goldenrod;
+    padding: 20px;
+
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+footer{
+    background-color: goldenrod;
+    padding: 5px 40px;
+    text-align: center;
+
+}

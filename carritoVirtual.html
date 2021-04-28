@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CARRITO</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estiloCarrito.css">
+  <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+
+<body>
+
+  <!--BARRA DE BUSQUEDA-->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img class="logotipo" src="imagenes/logo-fondoblanco.JPG" class="card-img-top" width='160px' height='70px' alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galeria.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="carritoVirtual.html">Shop</a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="formulario.html">Contact</a>
+          </li>
+
+          <!--FUNCION DE BOTON DE REDES SOCIALES EN BARRA DE BUSQUEDA-->
+
+          <div class="redes">
+            <ul class="redesSociales">
+          <li><a href="https://www.facebook.com/agus.working/"><img src="iconos/facebook.png"  width="25px"></a></li>
+          <li><a href="https://instagram.com/agus.working"><img src="iconos/instagram.png" width="25px"></a></li>
+          </ul>
+        </div> 
+
+        </ul>
+      </div>
+    </div>
+</nav>
+
+<br>
+<br>
+
+  <header class="container-fluid bg-dark position-sticky top-0">
+    <ul class="nav nav-pills mb-3 py-3 container" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+          aria-controls="pills-profile" aria-selected="false">Productos</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+          aria-controls="pills-contact" aria-selected="false">Carito</a>
+      </li>
+    </ul>
+
+  </header>
+
+  <!--ALERT-->
+
+  <div class="alert container position-sticky top-0 alert-primary hide" role="alert">
+    ¡Producto añadido al carrito!
+  </div>
+  <div class="alert container position-sticky top-0 alert-danger remove" role="alert">
+    Producto removido.
+  </div>
+
+
+
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">1</div>
+    <div class="tab-pane fade show active container" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+     
+
+<!--PRODUCTOS-->
+
+<!--INTERIOR-->
+
+      <h6 class="h4 m-4 text-warning">PRODUCTOS</h6>
+
+      <h6 class="h4 m-4 text-light">Interior</h6>
+
+      <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+
+      <div class="col d-flex justify-content-center mb-4">
+        <div class="card border-warning mb-1 bg-dark rounded" style="width: 20rem;">
+          <h5 class="card-title pt-2 text-center text-light">Barra Drinks</h5>
+          <img src="imagenes/Interior/Barra vinería.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="text-light">Precio: <span class="precio">$ 17500</span></h5>
+            <div class="d-grid gap-2">
+            <button class="btn btn-outline-warning button" >Añadir a carrito</button>
+          </div>
+          </div>
+        </div>
+      </div>
+   
+      <div class="col d-flex justify-content-center mb-4">
+        <div class="card border-warning mb-1 bg-dark rounded" style="width: 20rem;">
+        <h5 class="card-title pt-2 text-center text-light">Estanteria estilo industrial</h5>
+        <img src="imagenes/Interior/Estanteria estilo industrial.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="text-light">Precio: <span class="precio">$ 14500</span></h5>
+          <div class="d-grid gap-2">
+            <button class="btn btn-outline-warning button" >Añadir a carrito</button>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col d-flex justify-content-center mb-4">
+      <div class="card border-warning mb-1 bg-dark rounded" style="width: 20rem;">
+      <h5 class="card-title pt-2 text-center text-light">Rack TV</h5>
+      <img src="imagenes/Interior/Rack tv blanco.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <h5 class="text-light">Precio: <span class="precio">$ 5900</span></h5>
+        <div class="d-grid gap-2">
+          <button class="btn btn-outline-warning button" >Añadir a carrito</button>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="col d-flex justify-content-center mb-4">
+    <div class="card border-warning mb-1 bg-dark rounded" style="width: 20rem;">
+    <h5 class="card-title pt-2 text-center text-light">Escritorio flotante</h5>
+    <img src="imagenes/Interior/Escritorio L flotante.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <h5 class="text-light">Precio: <span class="precio">$ 3900</span></h5>
+      <div class="d-grid gap-2">
+        <button class="btn btn-outline-warning button" >Añadir a carrito</button>
+    </div>
+    </div>
+  </div>
+</div>
+<div class="col d-flex justify-content-center mb-4">
+  <div class="card border-warning mb-1 bg-dark rounded" style="width: 20rem;">
+  <h5 class="card-title pt-2 text-center text-light">Escritorio pc airpin</h5>
+  <img src="imagenes/Galeria/escritorio pc airpin.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h5 class="text-light">Precio: <span class="precio">$ 7300</span></h5>
+    <div class="d-grid gap-2">
+      <button class="btn btn-outline-warning button" >Añadir a carrito</button>
+  </div>
+  </div>
+</div>
+</div>
+<div class="col d-flex justify-content-center mb-4">
+  <div class="card border-warning mb-1 bg-dark rounded" style="width: 20rem;">
+  <h5 class="card-title pt-2 text-center text-light">Alacena estilo industrial</h5>
+  <img src="imagenes/Galeria/estanteria industrial 2.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h5 class="text-light">Precio: <span class="precio">$ 4800</span></h5>
+    <div class="d-grid gap-2">
+      <button class="btn btn-outline-warning button" >Añadir a carrito</button>
+  </div>
+  </div>
+</div>
+</div>
+<div class="col d-flex justify-content-center mb-4">
+  <div class="card border-warning mb-1 bg-dark rounded" style="width: 20rem;">
+  <h5 class="card-title pt-2 text-center text-light">Estanteria</h5>
+  <img src="imagenes/Interior/estanteria.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h5 class="text-light">Precio: <span class="precio">$ 1600</span></h5>
+    <div class="d-grid gap-2">
+      <button class="btn btn-outline-warning button" >Añadir a carrito</button>
+  </div>
+  </div>
+</div>
+</div>
+<div class="col d-flex justify-content-center mb-4">
+  <div class="card border-warning mb-1 bg-dark rounded" style="width: 20rem;">
+    <h5 class="card-title pt-2 text-center text-light">Mesa de arrime</h5>
+    <img src="imagenes/Interior/mesa de arrime.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <h5 class="text-light">Precio: <span class="precio">$ 2500</span></h5>
+      <div class="d-grid gap-2">
+        <button class="btn btn-outline-warning button">Añadir a carrito</button>
+    </div>
+    </div>
+  </div>
+  </div>
+    
+    </div>
+  
+<!--EXTERIOR-->
+
+  <h6 class="h4 m-4 text-light">Exterior</h6>
+
+    <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+
+    <div class="col d-flex justify-content-center mb-4">
+      <div class="card border-warning mb-1 bg-dark rounded" style="width: 20rem;">
+        <h5 class="card-title pt-2 text-center text-light">Porta maceta triple</h5>
+        <img src="imagenes/Jardin/Porta maceta triple.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="text-light">Precio: <span class="precio">$ 3100</span></h5>
+          <div class="d-grid gap-2">
+          <button class="btn btn-outline-warning button">Añadir a carrito</button>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col d-flex justify-content-center mb-4">
+      <div class="card border-warning mb-1 bg-dark rounded" style="width: 20rem;">
+        <h5 class="card-title pt-2 text-center text-light">Pie porta maceta</h5>
+        <img src="imagenes/Jardin/Pie porta maceta.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="text-light">Precio: <span class="precio">$ 2200</span></h5>
+          <div class="d-grid gap-2">
+          <button class="btn btn-outline-warning button">Añadir a carrito</button>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col d-flex justify-content-center mb-4">
+      <div class="card border-warning mb-1 bg-dark rounded" style="width: 20rem;">
+        <h5 class="card-title pt-2 text-center text-light">Jardín vertical amplio</h5>
+        <img src="imagenes/Jardin/jardin vertical amplio.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="text-light">Precio: <span class="precio">$ 2300</span></h5>
+          <div class="d-grid gap-2">
+          <button class="btn btn-outline-warning button" >Añadir a carrito</button>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col d-flex justify-content-center mb-4">
+      <div class="card border-warning mb-1 bg-dark rounded" style="width: 20rem;">
+        <h5 class="card-title pt-2 text-center text-light">Banco rustico</h5>
+        <img src="imagenes/Galeria/Banco pallet - exterior.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="text-light">Precio: <span class="precio">$ 3200</span></h5>
+          <div class="d-grid gap-2">
+          <button class="btn btn-outline-warning button" >Añadir a carrito</button>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col d-flex justify-content-center mb-4">
+      <div class="card border-warning mb-1 bg-dark rounded" style="width: 20rem;">
+        <h5 class="card-title pt-2 text-center text-light">Banco estilo industrial</h5>
+        <img src="imagenes//Galeria/banco industrial.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="text-light">Precio: <span class="precio">$ 4600</span></h5>
+          <div class="d-grid gap-2">
+          <button class="btn btn-outline-warning button" >Añadir a carrito</button>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col d-flex justify-content-center mb-4">
+      <div class="card border-warning mb-1 bg-dark rounded" style="width: 20rem;">
+        <h5 class="card-title pt-2 text-center text-light">Jardín vertical simple</h5>
+        <img src="imagenes/Jardin/jardin vertical simple.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="text-light">Precio: <span class="precio">$ 1800</span></h5>
+          <div class="d-grid gap-2">
+          <button class="btn btn-outline-warning button" >Añadir a carrito</button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!--ACCESORIOS-->
+
+  <h6 class="h4 m-4 text-light">Accesorios</h6>
+
+    <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+
+    <div class="col d-flex justify-content-center mb-4">
+      <div class="card border-warning mb-1 bg-dark rounded" style="width: 20rem;">
+        <h5 class="card-title pt-2 text-center text-light">Caja de pesca</h5>
+        <img src="imagenes/caja de pesca.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="text-light">Precio: <span class="precio">$ 3300</span></h5>
+          <div class="d-grid gap-2">
+          <button class="btn btn-outline-warning button">Añadir a carrito</button>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col d-flex justify-content-center mb-4">
+      <div class="card border-warning mb-1 bg-dark rounded" style="width: 20rem;">
+        <h5 class="card-title pt-2 text-center text-light">Conservadora</h5>
+        <img src="imagenes/Conservadora grande.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="text-light">Precio: <span class="precio">$ 4000</span></h5>
+          <div class="d-grid gap-2">
+          <button class="btn btn-outline-warning button">Añadir a carrito</button>
+        </div>
+        </div>
+      </div>
+    </div><div class="col d-flex justify-content-center mb-4">
+      <div class="card border-warning mb-1 bg-dark rounded" style="width: 20rem;">
+        <h5 class="card-title pt-2 text-center text-light">Conservadora mini</h5>
+        <img src="imagenes/mini Conservadora.JPG" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="text-light">Precio: <span class="precio">$ 2000</span></h5>
+          <div class="d-grid gap-2">
+          <button class="btn btn-outline-warning button" >Añadir a carrito</button>
+        </div>
+        </div>
+      </div>
+    </div><div class="col d-flex justify-content-center mb-4">
+      <div class="card border-warning mb-1 bg-dark rounded" style="width: 20rem;">
+        <h5 class="card-title pt-2 text-center text-light">Canasto porta botellas</h5>
+        <img src="imagenes/Porta botella.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="text-light">Precio: <span class="precio">$ 1400</span></h5>
+          <div class="d-grid gap-2">
+          <button class="btn btn-outline-warning button" >Añadir a carrito</button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+</div>
+</div>
+
+    <div class="tab-pane fade carrito" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+      
+<br>
+
+<!--CARRITO-->
+
+      <table class="table table-dark table-hover">
+      <thead>
+        <tr class="text-primary">
+          <th scope="col">#</th>
+          <th scope="col">Productos</th>
+          <th scope="col">Precio</th>
+          <th scope="col">Cantidad</th>
+        </tr>
+      </thead>
+      <tbody class="tbody">
+        
+  
+      </tbody>
+    </table>
+
+    <br><br>
+
+    <div class="row mx-4">
+      <div class="col">
+        <h3 class="itemCartTotal text-white">Total: 0</h3>
+      </div>
+      <div class="col d-flex justify-content-end">
+        <button class="btn btn-success">COMPRAR</button>
+    </div>
+    </div>
+
+  </div>
+  </div>
+
+  <br>
+<br>
+
+  <!--SE REPITE FOOTER-->
+
+<footer>
+  <img class="logotipoFooter" src="imagenes/agusWorking-sinfondo.png" alt="Logotipo">
+  <br>
+
+<!--FUNCION DE BOTON DE REDES SOCIALES EN FOOTER-->
+
+  <div class="redes">
+    <ul class="redesSociales">
+  <li><a href="https://www.facebook.com/agus.working/"><img src="iconos/facebook.png"  width="25px"></a></li>
+  <li><a href="https://instagram.com/agus.working"><img src="iconos/instagram.png" width="25px"></a></li>
+  </ul>
+
+  <p>Marca exclusiva, todos los derechos reservados
+    <br>
+   By: Eze Montoya. 
+  </p>
+</div>
+</footer>
+
+
+  <script src="js\jquery-3.6.0.min.js"></script>
+  <script src="js\bootstrap.bundle.min.js"></script>
+  <script src="js\Carrito.js"></script>
+
+
+</body>
+
+</html>
