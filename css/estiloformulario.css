@@ -39,18 +39,21 @@ textarea {
 }
 
 #boton {
-    background:gray;
-    color: goldenrod;
+    background:#009900;
+    color: black;
     padding: 20px;
+    border-radius: 10px;
 
 }
 
 #boton:hover {
-    cursor: pointer;
+    text-decoration: none;
+    color: #009900;
+    background: #fff;
 }
 
 footer{
-    background-color: goldenrod;
+    background-color: #566573;
     padding: 5px 40px;
     text-align: center;
 
