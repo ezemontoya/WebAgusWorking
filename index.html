@@ -57,27 +57,36 @@
 </nav>
 
 <!--carrusel-->
-<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-interval="5000">
-      <img src="imagenes/carrusel/folklore.jpg" class="d-block w-100" alt="slider01">
-    </div>
-    <div class="carousel-item" data-interval="5000">
-      <img src="imagenes/carrusel/malambo.jpg" class="d-block w-100" alt="slider02">
-    </div>
-    <div class="carousel-item" data-interval="5000">
-      <img src="imagenes/carrusel/tango.jpg" class="d-block w-100" alt="slider03">
-    </div>
+<div class="container-fluid">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-interval="3000">
+        <img src="imagenes/carrusel/folklore.jpg" class="d-block w-100" class="d-block h-10" alt="slider01">
+      </div>
+      
+        <div class="carousel-item" data-interval="3000">
+          <img src="imagenes/carrusel/malambo.jpg" class="d-block w-100" class="d-block h-10" alt="slider02">
+        </div>
+      <div class="carousel-item" data-interval="3000">
+        <img src="imagenes/carrusel/tango.jpg" class="d-block w-100" alt="slider03">
+      </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+  </div>
+  </div>
+  </div>
 
 <header>
 <div class="header2">
