@@ -104,6 +104,14 @@ background-image: linear-gradient(rgba(255,255,255, .1), rgba(34,40,49, 1));
 }
 
 .carousel-inner{
- height: 700px;
  padding-top: 20px;
+ padding-bottom: 50px;
+}
+
+.slide{
+    margin-top: 10px;
+}
+
+.slide img{
+    height: 85vh;
 }
